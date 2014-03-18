@@ -9,3 +9,15 @@ It is built as a [RelengAPI](https://wiki.mozilla.org/ReleaseEngineering/Applica
 
     * RelengAPI
     * IPy
+
+## Testing
+
+Testing needs a few more packages.
+Install with the 'test' extra to pull in those packages.
+For development purposes:
+
+    pip install -e .[test]
+
+Or to install from pypi:
+
+    pip install relengapi-mapper[test]
