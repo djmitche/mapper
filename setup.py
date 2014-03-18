@@ -22,4 +22,10 @@ setup(name='mapper',
           'python-dateutil',
       ],
       license='MPL2',
-      )
+      extras_require = {
+          'test': [
+              'nose',
+              'mock'
+          ]
+      }
+)
